@@ -1,0 +1,40 @@
+body {
+  background-image: linear-gradient(rgba(178, 110, 230, 0.6),
+      rgb(230, 229, 190),
+      rgb(150, 120, 100));
+  background-repeat: no-repeat;
+}
+
+.container {
+  background-image: linear-gradient(to left,
+      rgba(128, 128, 128, 0.46),
+      rgba(223, 191, 191, 0.334));
+  border-radius: 50%;
+  box-shadow: 0 0 51px 3px grey;
+  width: 600px;
+  height: 400px;
+ 
+}
+/* display */
+#display {
+  background-color: blueviolet;
+  color: rgb(245, 236, 182);
+  box-shadow: 0 0 21px 3px rgba(19, 20, 20, 0.87);
+  border-radius: 25px;
+}
+/* Button */
+.btn {
+  font-size: larger;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.347);
+  height: 55px;
+  width: 105px;
+  box-shadow: 0 0 10px 0.1px black;
+  border-radius: 25%;
+  
+}
+
+#buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
